@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Cateegory;
-use App\Http\Requests\StoreCateegoryRequest;
-use App\Http\Requests\UpdateCateegoryRequest;
+use App\Http\Requests\StoreCategoryRequest;
+use App\Http\Requests\UpdateCategoryRequest;
 
-class CateegoryController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
